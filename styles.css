@@ -9,9 +9,9 @@ body {
 }
 
 .link-button {
-    display: block;
-    justify-content: center; /* Esto no aplica en block, pero lo dejo si lo vas a cambiar a flex */
-    align-items: center;     /* Esto también */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: black;
     border: 1px solid gray;
